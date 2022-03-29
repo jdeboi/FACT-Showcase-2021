@@ -15,6 +15,11 @@ class CTSketch {
         frameR = this.frameR;
         select("#stuentName").html(this.student);
 
+        rectMode(CORNER);
+        angleMode(RADIANS);
+
+        blendMode(BLEND);
+        
         this.startSketch();
     }
 
@@ -23,4 +28,7 @@ class CTSketch {
 
     // override
     display() {}
+
+    // override
+    mouse() {}
 }

@@ -2,7 +2,7 @@
 class Sketch_00 extends CTSketch {
 
     constructor() {
-        super("brooke friedman", 0, 10);
+        super("Brooke Friedman", 0, 10);
     }
 
     startSketch() {

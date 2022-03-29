@@ -3,7 +3,7 @@
 class Sketch_02 extends CTSketch {
 
     constructor() {
-        super("kate ragatz", 2, 20);
+        super("Kate Ragatz", 2, 20);
     }
 
     startSketch() {
@@ -49,6 +49,9 @@ class Sketch_02 extends CTSketch {
     }
 
     mouse() {
+        const Y_AXIS = 1;
+        const X_AXIS = 2;
+        
         let c1 = color(random(100, 255), random(150, 255), random(190, 255));
         let c2 = color(random(100, 255), random(150, 255), random(190, 255));
         this.setGradient(0, 0, width, height/2, c1, c2, X_AXIS)
